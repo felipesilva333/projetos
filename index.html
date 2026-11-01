@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Painel do Clima</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌤️ Painel do Clima</h1>
+      <p>Consulte a temperatura e salve suas cidades favoritas.</p>
+    </header>
+
+    <section class="busca-box">
+      <input type="text" id="inputCidade" placeholder="Digite uma cidade (ex: São Paulo)..." />
+      <button id="btnBuscar">Buscar</button>
+    </section>
+
+    <section id="resultadoBusca" class="card-resultado hidden">
+      <h2 id="resNomeCidade">--</h2>
+      <p id="resPais" class="pais">--</p>
+      <div class="temp-destaque"><span id="resTemp">--</span>°C</div>
+      <button id="btnSalvarFavorito">★ Salvar nos Favoritos</button>
+    </section>
+
+    <hr />
+
+    <section class="favoritos-secao">
+      <h2>⭐ Cidades Favoritas (Supabase)</h2>
+      <ul id="listaFavoritos" class="grid-favoritos"></ul>
+    </section>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
