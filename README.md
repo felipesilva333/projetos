@@ -15,7 +15,7 @@ Aplicação web desenvolvida para consulta de clima em tempo real e gestão de c
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Frontend:** HTML5, CSS3 e JavaScript (ES6 Modules)
+- **Frontend:** HTML, CSS e JavaScript
 - **API de Clima:** [Open-Meteo Geocoding & Weather API](https://open-meteo.com/)
 - **Backend / Banco de Dados:** [Supabase](https://supabase.com/) (PostgreSQL)
 - **Controle de Versão:** Git e GitHub
