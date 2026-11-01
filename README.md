@@ -9,7 +9,6 @@ Aplicação web desenvolvida para consulta de clima em tempo real e gestão de c
 - **🔍 Busca em Tempo Real (API Fetch):** Consulta coordenadas e dados meteorológicos globais utilizando a **Open-Meteo API**.
 - **➕ Adicionar Favoritos (Create):** Grava a cidade, país e temperatura atual diretamente no banco de dados **Supabase**.
 - **📋 Listagem Dinâmica (Read):** Carrega e exibe a lista atualizada de cidades salvas no banco de dados.
-- **🗑️ Remover Favoritos (Delete):** Permite excluir cidades cadastradas do banco com atualização imediata da interface.
 
 ---
 
